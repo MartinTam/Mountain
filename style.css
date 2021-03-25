@@ -41,6 +41,13 @@
         color: white;
         font-family: sans-serif;
     }
+
+    .button {
+        width: 20vw;
+        height: 30vh;
+        background: #848484;
+        text-align: center;
+    }
 }
 
 @media (max-width: 1220px), (max-height: 649px){
