@@ -1,0 +1,12 @@
+.flexbox {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+}
+
+.sign-in {
+    display: flex;
+    width: 30vw;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.2);
+}
