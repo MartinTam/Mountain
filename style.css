@@ -1,12 +1,21 @@
 .flexbox {
     display: flex;
-    width: 90vw;
-    height: 90vh;
+    width: 99.8vw;
+    height: 99.7vh;
+    margin: 0;
+
+    background: cornflowerblue;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-in {
     display: flex;
-    width: 30vw;
-    height: 40vh;
+    
+    width: 25vw;
+    height: 50vh;
     background: rgba(0, 0, 0, 0.2);
+
+
 }
