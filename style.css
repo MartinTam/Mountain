@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-@media (min-width: 1221px),  (min-height: 650px){
+@media (min-width: 1221px),  (min-height: 750px){
     .sign-in {
         display: flex;
         flex-direction: column;
@@ -42,15 +42,32 @@
         font-family: sans-serif;
     }
 
-    .button {
-        width: 20vw;
-        height: 30vh;
-        background: #848484;
-        text-align: center;
+    #login {
+        background: brown;
+        border-radius: 5px;
+        height: 3em;
+
+        color: white
+    }
+
+    #create-account {
+        background: rgba(0,0,0,0);
+        border-radius: 5px;
+        height: 3em;
+
+        color: white;
+    }
+
+    #create-account:hover {
+        background: rgb(255,255,255);
+        border-radius: 5px;
+        height: 3em;
+
+        color: black;
     }
 }
 
-@media (max-width: 1220px), (max-height: 649px){
+@media (max-width: 1220px), (max-height: 749px){
     .sign-in {
         display: flex;
         flex-direction: column;
@@ -79,6 +96,30 @@
     .text {
         color: white;
         font-family: sans-serif;
+    }
+
+    #login {
+        background: brown;
+        border-radius: 5px;
+        height: 3em;
+
+        color: white
+    }
+
+    #create-account {
+        background: rgba(0,0,0,0);
+        border-radius: 5px;
+        height: 3em;
+
+        color: white;
+    }
+
+    #create-account:hover {
+        background: rgb(255,255,255);
+        border-radius: 5px;
+        height: 3em;
+
+        color: black;
     }
 }
 
