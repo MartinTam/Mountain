@@ -1,5 +1,5 @@
 # Mountain
-Static login webpage template. The design is responsive for most devices.
+Static login webpage template. The design is responsive for most devices. The backgroound image used on the website is a freely-usable image from [unsplash.com](https://unsplash.com/).
 
 # Tools:
 HTML, CSS
